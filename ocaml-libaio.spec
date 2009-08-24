@@ -5,13 +5,12 @@
 #  tar cf $SCM_NAME.tar  $SCM_NAME
 #  lzma --best  $SCM_NAME.tar
 
-%define base_name       libaio-ocaml
 %define arch_version    2009-01-27_10h16
 %define pack_version    svn20090127
 
-Name:           ocaml-%{base_name}
+Name:           ocaml-libaio
 Version:        %{pack_version}
-Release:	%mkrel 2
+Release:        %mkrel 3
 Summary:        OCaml bindings for libaio, Linux kernel AIO access library
 License:        LGPL
 Group:          Development/Other
