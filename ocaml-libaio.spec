@@ -84,3 +84,21 @@ rm -rf %{buildroot}
 %{_libdir}/ocaml/aio/*.cmx
 %{_libdir}/ocaml/aio/*.cmxa
 
+
+
+%changelog
+* Mon Aug 24 2009 Florent Monnier <blue_prawn@mandriva.org> svn20090127-3mdv2010.0
++ Revision: 420307
+- renamed the package (to remove redundancy)
+- more uniform name
+- more uniform name
+
+* Sun Jun 28 2009 Guillaume Rousse <guillomovitch@mandriva.org> svn20090127-2mdv2010.0
++ Revision: 390245
+- rebuild
+
+* Tue Jan 27 2009 Florent Monnier <blue_prawn@mandriva.org> svn20090127-1mdv2009.1
++ Revision: 334157
+- corrected group
+- import ocaml-libaio-ocaml
+
