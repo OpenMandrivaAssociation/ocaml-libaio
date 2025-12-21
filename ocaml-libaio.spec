@@ -16,6 +16,7 @@ License:        LGPL
 Group:          Development/Other
 URL:            https://forge.ocamlcore.org/projects/libaio-ocaml/
 Source0:        libaio-ocaml-%{arch_version}.tar.lzma
+BuildRequires:	make
 BuildRequires:  ocaml
 BuildRequires:  ocaml-findlib
 BuildRequires:  libaio-devel
