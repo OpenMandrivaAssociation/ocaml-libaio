@@ -10,7 +10,7 @@
 
 Name:           ocaml-libaio
 Version:        %{pack_version}
-Release:        %mkrel 3
+Release:        4
 Summary:        OCaml bindings for libaio, Linux kernel AIO access library
 License:        LGPL
 Group:          Development/Other
